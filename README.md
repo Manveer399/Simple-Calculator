@@ -1,4 +1,4 @@
 # Simple-Calculator
 
 ##Current Design
-![Simple Calculator](./calculator-design.png)
+![Simple Calculator](./calculate-design.png)
