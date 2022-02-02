@@ -10,15 +10,21 @@ body {
   padding: 0;
   margin: 0;
   background: linear-gradient(to right, #00aaff, #00ff6c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .calculator-grid {
   display: grid;
   justify-content: center;
   align-content: center;
-  min-height: 100vh;
+  width: fit-content;
   grid-template-columns: repeat(4, 100px);
   grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  border: 20px solid rgb(7, 3, 3);
+  border-radius: 20px;
 }
 
 .span-two {
@@ -38,7 +44,7 @@ body {
 
 .output-area {
   grid-column: 1/-1;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.9);
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
@@ -56,4 +62,8 @@ body {
 .output-area .current-data {
   color: white;
   font-size: 2.5rem;
+}
+
+button[data-operation] {
+  background-color: rgb(209, 129, 64);
 }
