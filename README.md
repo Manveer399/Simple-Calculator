@@ -1,4 +1,5 @@
 # Simple-Calculator
 
-##Current Design
+## Current Design
+
 ![Simple Calculator](./calculate-design.png)
